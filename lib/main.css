@@ -1,0 +1,229 @@
+@font-face {
+    font-family: Title;
+    src: url(./PinkSunset-Regular.ttf);
+}
+@font-face {
+    font-family: Main;
+    src: url(./Kind\ Sans\ Thin.otf);
+}
+
+header{
+    background-color: #C4052E;
+    font-family: Main;
+    font-size: 18px;
+}
+header .col-md-4{
+    max-width: 300px;
+}
+a{
+    text-decoration: none;   
+}
+
+#bmenu, .nav .nav-link{
+    color: #fff;
+}
+.nav .nav-link:hover,
+.nav .nav-link.active{
+    color: #C4052E;
+    background-color: #fff;
+}
+
+h2, h5 {
+    font-family: Title;
+    color: #C4052E;
+}
+h4{
+    font-family: Title;
+}
+p{
+    font-family: Main;
+}
+
+
+/* cards */
+.single-box{
+    position: relative;
+    margin-bottom: 30px;
+}
+.img-area{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 3px solid #fff;
+    overflow: hidden;
+    top: 15px;
+    left: 15%;
+    border-radius: 50%;
+}
+.img-text{
+    width: 65%;
+    height: 325px;
+    display: block;
+    text-align: center;
+    padding: 40% 5%;
+    background: #262626;
+    color: #fff;
+    border-radius: 15px;
+    border: 5px solid;
+    border-color: #C4052E;
+    border-left: 0px;
+    border-top: 0px;
+}
+.bi-arrow-bar-left,
+.bi-arrow-bar-right{
+    color: #C4052E;
+    font-size: 30px;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: #262626;
+}
+.carousel-indicators .active {
+    background-color: #C4052E;
+}
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+/* Casts */
+#casts, #reach{
+    background-color: #262626;
+}
+#casts h2, #reach h2{
+    color: #fff;
+}
+#casts button{
+    font-family: Title;
+}
+#casts .nav .nav-link.active{
+    color: #C4052E;
+    font-weight: bold;
+}
+
+.handcard{
+    height: 300px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    position: relative;
+    overflow: visible;
+}
+.castinfo{
+    padding-left: 20px;
+    padding-bottom: 30px;
+    align-content: end;
+}
+.castinfo .btn, #products .btn{
+    background-color: #fff;
+    border: 2px solid #C4052E;
+    color: #C4052E;
+    font-family: Main;
+    font-weight: 600;
+}
+.castinfo .btn:hover,
+#products .btn:hover{
+    background-color: #C4052E;
+    color: #fff;
+}
+.casters{
+    display: flex;
+    margin-bottom: 1em;
+}
+.caster{
+    width: 60px;
+    height: 60px;
+    border: 3px solid #C4052E;
+    overflow: hidden;
+    top: 15px;
+    left: 15%;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.castbook{
+    max-width: 250px;
+    margin-left: 30px;
+}
+.castbook img{
+    width: 100%;
+}
+
+/* products */
+#products .nav .nav-link{
+    color: #C4052E;
+    font-weight: bold;
+    border: 3px solid #C4052E;
+}
+#products .nav .nav-link.active{
+    color: #fff;
+    background-color: #C4052E;
+}
+.product-img{
+    max-width: 300px;
+}
+
+/*reachus*/
+form{
+    color: #fff;
+    font-family: Main;
+    font-weight: bold;
+}
+#name, #tel, #mail, #message, #zip{
+    background-color: #262626;
+    border: 3px solid #fff;
+    color: #fff;
+    width: 80%;
+    resize: none;
+}
+#tel::placeholder, #zip::placeholder{
+    color: #666;
+}
+#reach .btn{
+    width: 80%;
+    background-color: #C4052E;
+    color: #fff;
+    font-family: Title;
+}
+#reach .btn:hover{
+    background-color: #fff;
+    color: #C4052E;
+}
+.reachimg{
+    max-height: 650px;
+}
+
+footer .container{
+    max-width: 200px;
+    color: #fff;
+    font-size: 0.5em;
+}
+
+
+@media screen and (max-width:767px) {
+    .single-box{
+        position: relative;
+        margin-bottom: 1em;
+    }
+    .img-area{
+        width: 6em;
+        height: 6em;
+        border: 3px solid #fff;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+    .img-text{
+        width: 20em;
+        height: 10em;
+        font-size: 0.6em;
+    }
+
+    .handcard{
+        margin-bottom: 1em;
+    }
+
+    .reachimg{
+        display: block;
+        max-height: 300px;
+    }
+}
