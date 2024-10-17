@@ -226,4 +226,24 @@ footer .container{
         display: block;
         max-height: 300px;
     }
+    
+    header .container{
+        padding: 1em;
+    }
+
+    .carousel-inner{
+        margin-left: 1em;
+    }
+
+    .castbook{
+        margin-top: 3em;
+    }
+
+    .tab-content{
+        margin-left: 4em;
+    }
+
+    .gone{
+        display: none;
+    }
 }
