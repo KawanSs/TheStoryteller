@@ -103,7 +103,7 @@ p{
 
 .handcard{
     height: 300px;
-    width: 100%;
+    width: 500px;
     border-radius: 5px;
     background-color: #fff;
     display: flex;
@@ -245,5 +245,9 @@ footer .container{
 
     .handcard{
     margin-bottom: 1em;
+    width: 200px;
+    }
+    .row{
+        max-width:767px;
     }
 }
