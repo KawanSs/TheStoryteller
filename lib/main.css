@@ -218,10 +218,6 @@ footer .container{
         font-size: 0.6em;
     }
 
-    .handcard{
-        margin-bottom: 1em;
-    }
-
     .reachimg{
         display: block;
         max-height: 300px;
@@ -245,5 +241,9 @@ footer .container{
 
     .gone{
         display: none;
+    }
+
+    .handcard{
+    margin-bottom: 1em;
     }
 }
