@@ -275,11 +275,15 @@ footer .container{
         max-width: 620px;
     }
 
-    .tab-content{
+    #casts .tab-pane .row{
         display: block;
     }
     .handcard{
     margin-bottom: 1em;
+    }
+
+    .reachimg{
+        max-height: 450px;
     }
     .row{
         max-width:1023px;
